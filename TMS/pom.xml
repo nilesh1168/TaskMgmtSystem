@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.tms</groupId>
+	<artifactId>TMS</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Task Management System</name>
+	<description>Spring Boot Microservice Project for Task Management System</description>
+	<properties>
+		<java.version>21</java.version>
+	</properties>
+	<modules>
+		<module>commons</module>
+		<module>tms-user-service</module>
+	</modules>
+</project>
