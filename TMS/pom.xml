@@ -15,5 +15,6 @@
 		<module>commons</module>
 		<module>tms-user-service</module>
 		<module>tms-task-service</module>
+		<module>eureka-server</module>
 	</modules>
 </project>
