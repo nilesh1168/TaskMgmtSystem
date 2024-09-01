@@ -134,6 +134,8 @@ Icon
 
 # Maven
 .mvn
+mvnw
+mvnw.cmd
 
 # Thumbnails
 ._*
