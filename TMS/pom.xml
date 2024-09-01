@@ -14,5 +14,6 @@
 	<modules>
 		<module>commons</module>
 		<module>tms-user-service</module>
+		<module>tms-task-service</module>
 	</modules>
 </project>

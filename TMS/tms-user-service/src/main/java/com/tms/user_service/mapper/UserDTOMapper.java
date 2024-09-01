@@ -9,16 +9,12 @@ import com.tms.user_service.entity.User;
 import commons.dto.UserDTO;
 
 @Service
-public class UserDTOMapper implements Function<User, UserDTO>{
+public class UserDTOMapper implements Function<User, UserDTO> {
 
 	@Override
 	public UserDTO apply(User user) {
 		// TODO Auto-generated method stub
-		return new UserDTO(
-				user.getUserName(), 
-				user.getEmail(), 
-				user.getRole()
-				);
+		return new UserDTO(user.getUserName(), user.getEmail(), user.getRole());
 	}
 
 }
